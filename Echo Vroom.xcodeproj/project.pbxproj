@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		41699E1D255A653500F11918 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 41699E1C255A653500F11918 /* AudioKit */; };
+		41D33CA325761EB800BD7ED5 /* RecorderConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D33CA225761EB800BD7ED5 /* RecorderConductor.swift */; };
 		41D53D1D2564EB25006FAE8D /* Cookbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53D142564E695006FAE8D /* Cookbook.swift */; };
 		41D53D1E2564EB25006FAE8D /* PlayerControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53D152564E695006FAE8D /* PlayerControls.swift */; };
 		41D53D1F2564EB25006FAE8D /* ADSRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53D162564E695006FAE8D /* ADSRView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41D33CA225761EB800BD7ED5 /* RecorderConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderConductor.swift; sourceTree = "<group>"; };
 		41D53D132564E695006FAE8D /* ParameterSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterSlider.swift; sourceTree = "<group>"; };
 		41D53D142564E695006FAE8D /* Cookbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookbook.swift; sourceTree = "<group>"; };
 		41D53D152564E695006FAE8D /* PlayerControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControls.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				41E2E02125551C0400029FAD /* Assets.xcassets */,
 				41E2E02325551C0400029FAD /* LaunchScreen.storyboard */,
 				41E2E02625551C0400029FAD /* Info.plist */,
+				41D33CA225761EB800BD7ED5 /* RecorderConductor.swift */,
 			);
 			path = "Echo Vroom";
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				41D53D212564EB25006FAE8D /* PlotView.swift in Sources */,
 				41D53D222564EB25006FAE8D /* ColorManager.swift in Sources */,
 				41E2E01D25551C0200029FAD /* ViewController.swift in Sources */,
+				41D33CA325761EB800BD7ED5 /* RecorderConductor.swift in Sources */,
 				41E2E01925551C0200029FAD /* AppDelegate.swift in Sources */,
 				41E2E01B25551C0200029FAD /* SceneDelegate.swift in Sources */,
 			);
